@@ -1,0 +1,12 @@
+node_modules
+logs/*.log
+pids/*.pid
+
+# node-waf configuration
+.lock-wscript
+
+# Compiled binary addons (http://nodejs.org/api/addons.html)
+build/Release
+
+# Debug log from npm
+npm-debug.log

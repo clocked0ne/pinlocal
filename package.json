@@ -1,0 +1,32 @@
+{
+  "name": "pinlocal",
+  "description": "PinLocal API wrapper for submitting removal lead data via Node.js",
+  "title": "PinLocal API",
+  "version": "1.0.0",
+  "author": "Nigel Horton <webdevelopment@clocked0ne.co.uk>",
+  "license": "MIT",
+  "main": "pinLocal.js",
+  "scripts": {
+    "test": "mocha --recursive --reporter list"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/clocked0ne/pinlocal.git"
+  },
+  "bugs": {
+    "url": "https://github.com/clocked0ne/pinlocal/issues"
+  },
+  "dependencies": {
+    "formidable": "^1.0.0",
+    "request": "^2.70.0",
+    "validator": "^5.4.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.4.0",
+    "should": "^1.2.0"
+  },
+  "engines": {
+    "node": "^6.2.2",
+    "npm": "^3.9.5"
+  }
+}
